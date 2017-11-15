@@ -8,7 +8,6 @@
   animation-fill-mode: forwards;
   letter-spacing: 1.8px;
   text-transform: uppercase;
-  /*margin-left: 60px;*/
 }
 
 .project-title-wrapper {
@@ -44,13 +43,13 @@
   max-width: 500px;
 }
 
-
 /* second page */
 .project-page {
   height: 180vh;
   background-color: #f7f7f7;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   padding: 80px 0;
   color: #1c1c1c;
 
@@ -68,7 +67,7 @@
   width: 230px;
   line-height: 1.6;
   align-self: center;
-  padding-right: 400px;
+  padding-right: 20%;
 }
 
 #transparent-bg {
@@ -76,12 +75,16 @@
   transform: rotate(-30deg) translate(-50px, -20px);
 }
 
-.photo-left img {
+.photo-vertical {
   max-height: 600px;
 }
 
+.photo-horizontal {
+  max-width: 600px;
+  align-self: center;
+}
+
 .photo-right {
-  padding-top: 110px;
   padding-right: 30px;
   /*align-self: flex-end;*/
   position: relative;
@@ -98,7 +101,7 @@
   align-self:center;
   width: 230px;
   line-height: 1.6;
-  padding-left: 100px;
+  padding-left: 110px;
 }
 
 .arrow {
