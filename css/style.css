@@ -8,6 +8,11 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+  color: #f7f7f7;
+}
+
 .container {
   /*height: 100vh;
   position: relative;*/
@@ -73,7 +78,7 @@ a:hover {
 .portfolio, .new, .old {
   text-align:center;
   position: absolute;
-  right: 5px;
+  right: -5px;
   bottom: 0;
   height: 100px;
   width: 100px;
@@ -82,6 +87,7 @@ a:hover {
 
 .new {
   opacity: 0;
+  letter-spacing: 1.6px;
 }
 
 .old, .new {
@@ -97,7 +103,7 @@ a:hover {
 
 /* contact animation */
 .animated{
-  transition: transform 1s ease-out;
+  transition: transform 520ms ease-out;
 }
 
 .contact-wrapper {
