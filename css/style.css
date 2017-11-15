@@ -102,7 +102,7 @@ a:hover {
 }
 
 /* contact animation */
-.animated{
+.animated {
   transition: transform 520ms ease-out;
 }
 
