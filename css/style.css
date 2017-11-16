@@ -17,6 +17,7 @@ a {
   height: 100vh;
   position: relative;
   overflow-x: hidden;
+  font-size: 1.16rem;
 }
 
 .content-wrapper {
@@ -111,6 +112,7 @@ a:hover {
   display: flex;
   align-items: center;
   position: absolute;
+  background-color: #1c1c1c;
   right: 0;
   top: 50%;
   right: -28vh;
@@ -137,4 +139,19 @@ a:hover {
   height: 80px;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation: portrait), only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-device-width: 1280px) and (min-device-width: 800px) and (orientation: portrait), only screen and (max-width: 767px) {
+  .content-wrapper {
+    margin-top: 2vh;
+  }
+
+  .project-wrapper {
+    margin-top: 0;
+  }
+
+  .menu li {
+    margin-left: -2vw;
+    margin-right: 1vw;
+  }
 }
