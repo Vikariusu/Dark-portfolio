@@ -38,6 +38,17 @@ a {
   color: #f7f7f7;
   border-left: 2px solid #f7f7f7;
   padding-top: 30px;
+
+  /* added for author */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.credit {
+  color: #5a5c51;
+  font-size: 0.85rem;
+  margin: -8px;
 }
 
 ul {
