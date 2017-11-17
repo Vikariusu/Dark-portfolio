@@ -44,7 +44,6 @@
   width: 60vw;
   margin: 20px 50px;
   line-height: 1.5;
-  /*flex: 1 0;*/
 }
 
 .project-wrapper p {
@@ -89,7 +88,6 @@
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  /*overflow: auto;*/
   /*height: 40vh;*/
 }
 
@@ -100,7 +98,6 @@
   width: calc(50% - 10vw);
 }
 
-/* just added */
 .text-photo-right {
   width: 50%;
   /*padding: 37vh 0 0;
@@ -128,13 +125,7 @@
 #transparent-bg {
   max-height: 430px;
   transform: rotate(-30deg) translate(-50px, -30px);
-
-
   padding-top: 8vh;
-  /*-webkit-backface-visibility: hidden;
-  -webkit-transform: translateZ(0) scale(1.0, 1.0);*/
-
-
 
   /*max-width:50%;
   max-height:100%;
@@ -171,7 +162,6 @@
   flex-direction: row-reverse;
   justify-content: space-around;
 
-
   align-items: center;
   padding-bottom: 5vh;
   /*padding-right: 5vw;*/
@@ -193,7 +183,7 @@
   top: 92vh;
   right: 50vw;
   transform: scale(1.8) rotate(180deg);
-  animation: arrowdownmove 900ms infinite alternate;
+  animation: arrowdownmove 820ms infinite alternate;
 }
 
 @keyframes arrowdownmove {
