@@ -127,12 +127,12 @@ a:hover {
   background-color: #1c1c1c;
   right: 0;
   top: 50%;
-  right: -28vh;
+  right: -32.5vh;
   transition: transform 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94) ease-out;
 }
 
 .contact-wrapper:hover {
-  transform: translateX(-28vh);
+  transform: translateX(-32.5vh);
 }
 
 .contact {
@@ -141,19 +141,33 @@ a:hover {
   padding-top: 10px;
   width: 80px;
   height: 80px;
+
+  /*padding: 0;
+  margin: 0;
+  width: 10vh;
+  height: 10vh;*/
   letter-spacing: 4px;
   line-height: 80px;
 }
 
 .contact-data {
   line-height: 80px;
-  width: 28vh;
+  width: 32.5vh;
   height: 80px;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
+  text-align: center;
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation: portrait), only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-device-width: 1280px) and (min-device-width: 800px) and (orientation: portrait), only screen and (max-width: 767px) {
+  .container {
+    font-size: 1rem;
+  }
+
+  .project-page {
+    font-size: 1.1rem;
+  }
+
   .content-wrapper {
     margin-top: 2vh;
   }
@@ -165,5 +179,23 @@ a:hover {
   .menu li {
     margin-left: -2vw;
     margin-right: 1vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .project-page {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 320px) {
+  .project-wrapper{
+    margin: 0 5px;
+  }
+  .menu {
+    height: auto;
+  }
+  .menu li {
+    padding: 0 2px;
   }
 }

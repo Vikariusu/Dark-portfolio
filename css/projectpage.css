@@ -66,6 +66,10 @@
   height: 80vh;
 }
 
+#pomodoro-responsive .text-photo-left {
+  padding-right: 10vw;
+}
+
 .photo-left-wrap {
   width: 50%;
   display: flex;
@@ -227,6 +231,7 @@
 
   .text-photo-left-horizontal {
     padding: 0;
+    width: calc(50% - 2vw)
   }
 
   .photo-left-wrap {
@@ -238,6 +243,11 @@
 
     max-width: 90vw;
   }
+
+  #pomodoro-responsive .text-photo-left {
+    padding-right: 0;
+  }
+
   .photo-vertical {
     /*object-fit: cover;*/
     max-width:100%;
@@ -265,8 +275,6 @@
   #mockups-wrapper {
     height: 100%;
   }
-
-
 
   .photo-right-img {
     max-width:100%;
@@ -313,5 +321,9 @@
 
   #transparent-bg {
     height: 60%;
+  }
+
+  #pomodoro-responsive {
+    padding: 10vh 5.6vw 10vh 0vh;
   }
 }
