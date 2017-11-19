@@ -23,9 +23,12 @@
   letter-spacing: 1.5px;
 }
 
-/*.project-wrapper a:visited {
+.cv-link:hover, .project-wrapper a:hover {
   color: #9c6b4f;
-}*/
+  transition: .45s all;
+  -webkit-transition: .45s all;
+  -o-transition: .45s all;
+}
 
 @keyframes slideIn {
   0% {
