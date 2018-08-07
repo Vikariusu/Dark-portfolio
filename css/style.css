@@ -129,11 +129,6 @@ a:hover {
   padding-top: 10px;
   width: 80px;
   height: 80px;
-
-  /*padding: 0;
-  margin: 0;
-  width: 10vh;
-  height: 10vh;*/
   letter-spacing: 4px;
   line-height: 80px;
 }
@@ -145,7 +140,7 @@ a:hover {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
   text-align: center;
-  font-family: 'Baskerville', Serif;
+  font-family: sans-serif;
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation: portrait), only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-device-width: 1280px) and (min-device-width: 800px) and (orientation: portrait), only screen and (max-width: 767px) {
