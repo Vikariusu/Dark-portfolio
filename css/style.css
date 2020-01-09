@@ -81,7 +81,7 @@ li a {
   display: block;
   width: 0;
   height: 2px;
-  background: #f7f7f7;
+  background: #ba9077;
   transition: width .3s;
 }
 
